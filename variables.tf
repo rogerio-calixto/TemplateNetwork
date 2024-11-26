@@ -6,7 +6,7 @@ variable "profile" {
 variable "regiao" {}
 variable "projeto" {}
 variable "ambiente" {}
-variable "criado-por" {}
-variable "cidr-block" {}
-variable "subnet-privada-config" {}
-variable "subnet-publica-config" {}
+variable "criado_por" {}
+variable "cidr_block" {}
+variable "subnet_privada_config" {}
+variable "subnet_publica_config" {}

@@ -7,7 +7,7 @@ provider "aws" {
     tags = {
       Environment     = var.ambiente
       Project         = var.projeto
-      CreatedBy       = var.criado-por
+      CreatedBy       = var.criado_por
     }
   }
 }
