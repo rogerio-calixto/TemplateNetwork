@@ -15,7 +15,7 @@ Configurar estas variaveis conforme necessidade:
 - subnet_publica_config
 - criado_por
 
-## Example:
+## Exemplo:
 
 - profile    -> "devops-profile"
 - regiao     -> "us-east-1"
@@ -53,7 +53,7 @@ Configurar estas variaveis conforme necessidade:
 		}
 	  ]
 
-# outputs
+# Outputs
 
 Alguns dados da infraestrutura criada serao retornados:
 
