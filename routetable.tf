@@ -16,7 +16,7 @@ resource "aws_route_table" "rt_pub" {
   depends_on = [aws_vpc.vpc, aws_internet_gateway.igw]
 }
 
-resource "aws_route_table_association" "rt-association_pub" {
+resource "aws_route_table_association" "rt_association_pub" {
   count          = length(var.subnet_publica_config)
   route_table_id = aws_route_table.rt_pub.id
   subnet_id      = aws_subnet.public_subnets.*.id[count.index]
