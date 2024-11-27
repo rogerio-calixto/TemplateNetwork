@@ -5,9 +5,9 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Environment     = var.ambiente
-      Project         = var.projeto
-      CreatedBy       = var.criado_por
+      Environment = var.ambiente
+      Project     = var.projeto
+      CreatedBy   = var.criado_por
     }
   }
 }

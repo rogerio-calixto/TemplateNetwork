@@ -1,8 +1,8 @@
 # public internet
 resource "aws_internet_gateway" "igw" {
   tags = {
-    Name    = "igw_${var.projeto}_${var.ambiente}"
-    Project = var.projeto
+    Name        = "igw_${var.projeto}_${var.ambiente}"
+    Project     = var.projeto
     Environment = var.ambiente
   }
 }
