@@ -3,11 +3,6 @@ variable "profile" {
   default = null
 }
 
-variable "assume_role_arn" {
-  type    = string
-  default = ""
-}
-
 variable "regiao" {}
 variable "projeto" {}
 variable "ambiente" {}
