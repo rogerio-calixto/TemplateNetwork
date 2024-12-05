@@ -5,7 +5,7 @@ resource "aws_vpc" "vpc" {
   enable_dns_hostnames                 = true
 
   tags = {
-    Name = "${var.projeto}_vpc_${var.ambiente}"
+    Name = "vpc_${var.projeto}_${var.ambiente}"
   }
 
   lifecycle {
