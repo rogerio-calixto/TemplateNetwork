@@ -3,6 +3,11 @@ variable "profile" {
   default = null
 }
 
+variable "arn_assumerole" {
+  type    = string
+  default = null
+}
+
 variable "regiao" {}
 variable "projeto" {}
 variable "ambiente" {}
